@@ -1,9 +1,8 @@
 /*
-*  Author: Tim Willison
+*  Author: Timmy Willison
 *  A plugin that creates a custom selector for 
-*  selecting any type of input element in a cross-browswer way.
-*  ex: $('input:inputs(text)').hide();
-*  
+*  selecting any type of input element in a cross-browser way.
+*  $('tag:inputs(args)') --> ex: $('input:inputs(text)').doSomething();
 */
 
 (function($) {
