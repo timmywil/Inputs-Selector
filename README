@@ -1,4 +1,4 @@
-A 4-line plugin that creates a selector for selecting any type of input element in a cross-browser way.
+A 5-line plugin that creates a selector for selecting any type of input element in a cross-browser way.
 ex: $('input:inputs(text)').hide();  
 In most browsers, $('input[type=text]').doSomething() would work just fine, but not in IE! 
 The alternative is you could add classes to all the elements you want and select them that way, but this is just a very short timesaver.
